@@ -19,5 +19,3 @@ COPY dev_user.sh ${BASE_INSTALL_DIR}
 COPY clean.sh ${BASE_INSTALL_DIR}
 
 RUN cd ${BASE_INSTALL_DIR}; sh install.sh;
-
-

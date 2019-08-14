@@ -28,6 +28,11 @@ echo "------------------- lsof -------------------"
 yum -y install lsof ;
 echo "lsof install finish !!!"
 
+echo "------------------- openssl -------------------"
+yum -y install openssl ;
+echo "openssl install finish !!!"
+
+
 echo "------------------- openssh-server -------------------"
 yum -y install openssh-server ;
 echo "openssh-server install finish !!!"
